@@ -23,7 +23,7 @@ resource "aws_vpc" "Core-vpc" {
   }
 }
 
-# VPC for RAN
+# VPC for RAN1
 resource "aws_vpc" "RAN-vpc" {
   cidr_block           = "10.1.0.0/16"
   instance_tenancy     = "default"
